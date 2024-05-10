@@ -16,6 +16,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
 
     <body>
@@ -23,30 +24,31 @@
             <div class="container mt-5">
                 <h1>Menu</h1>
                 <form>
-                    <div class="mt-5">
-                        <label for="drinksOption">Drinks</label>
-                        <select id="drinksOption">
-                            <option value="">Select a drink</option>
-                        </select>
-                    </div>
-                    <div class="mt-5">
-                        <label for="entreesOption">Entrees</label>
-                        <select id="entreesOption">
-                            <option value="">Select a entrees</option>
-                        </select>
-                    </div>
 
                     <div class="mt-5">
-                        <label for="dessertOption">Dessert</label>
-                        <select id="dessertOption">
-                            <option value="">Select a dessert</option>
+                        <h2>Category</h2>
+                    </div>
+                    <div>
+                        <select id="categoryList">
+                            <option value="">Select a category</option>
+                            <option value="drinks">Drinks</option>
+                            <option value="entrees">Entrees</option>
+                            <option value="desserts">Desserts</option>
                         </select>
                     </div>
 
 
-                   
-
+                    <div class="mt-5">
+                        <label for="menuList">List</label><br>
+                        <select id="menuList">
+                            <option value="">Select a item</option>
+                        </select>
+                    </div>
                 </form>
+
+
+
+
             </div>
         </main>
        
